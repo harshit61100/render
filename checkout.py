@@ -499,7 +499,7 @@ def stop():
         stop_requested = True  # Set the stop_requested flag
         return jsonify({"message": "API processing stopped."})
     else:
-        return jsonify({"message": "No processing to stop."})
+        return jsonify({"message": "No processing tostop."})
         
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=4000, debug=True)
